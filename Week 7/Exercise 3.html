@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form 3</title>
+</head>
+<body>
+	<form name="form3" method="post" action="#">
+		<table border="2px" cellpadding="10" cellspacing="0">
+			<caption>Registration Form</caption>
+			<tr>
+				<td>Enter your First Name</td>
+				<td><input type="text" name="First" ></td>
+			</tr>
+			<tr>
+				<td>Enter your Last Name</td>
+				<td><input type="text" name="Last"></td>
+			</tr>
+			<tr>
+				<td>Enter your Password</td>
+				<td><input type="Password" name="pwd" size="15" maxlength="16"></td>
+			</tr>
+			<tr>
+				<td>ReEnter your Password</td>
+				<td><input type="Password" name="pwd" size="15" maxlength="16"></td>
+			</tr>
+			<tr>
+				<td>Enter your Email</td>
+				<td><input type="Email" name="email"></td>
+			</tr>
+			<tr>
+				<td>Enter your mobile</td>
+				<td><input type="text" name="number"></td>
+			</tr>
+			<tr>
+				<td>Enter your address</td>
+				<td><textarea cols="30" rows="10" name="Message" ></textarea></td>
+			</tr>
+			<tr>
+				<td>Select your Gender</td>
+				<td>
+					<input type="radio" name="gender"  value="Male"><label for="Male">Male</label>
+					<input type="radio" name="gender" value="MFemle"><label for="Female">Female</label>
+				</td>
+			</tr>
+			<tr>
+				<td>Select your Hobby</td>
+				<td>
+					<input type="checkbox" name="hobby" value="Hobby1"><label for="Hobby1">Hobby1</label>
+					<input type="checkbox" name="hobby"  value="Hobby2"><label for="Hobby2">Hobby2</label>
+					<input type="checkbox" name="hobby"  value="Hobby3"><label for="Hobby3">Hobby3</label>
+				</td>
+			</tr>
+			<tr>
+				<td>Select your DOB</td>
+				<td><input type="date" name="date"></td>
+			</tr>
+			<tr>
+				<td>Select your Country</td>
+				<td>
+					<select name="Country">
+						<option value="Nepal" selected="selected">Nepal</option>
+						<option value="Maldieves">Maldieves</option>
+						<option value="America">America</option>
+						<option value="Thailand">Thailand</option>
+						<option value="Canada">Canada</option>
+						<option value="Africa">Africa</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Upload your pic</td>
+				<td><input type="file" name="file"></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<button type="submit">Save My Data</button>
+					<button type="reset">Reset Data</button>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
